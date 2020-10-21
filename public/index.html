@@ -1,43 +1,128 @@
 <!DOCTYPE html>
+<div id="root"></div>
+
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Darius Scott</title>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   </head>
+  
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <section class="s1">
+      <div class="main-container">
+        <div class="greeting-wrapper">
+          <h1>Hi, I'm Darius Scott</h1>
+            <p>Welcome to my portfolio.</p>
+        </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div id="navigation">
+              <ul id="navigation">
+              </ul>
+            </div>
+          </div>
+          
+          <div class="left-column">
+            <img class="profile-pic" src="grad.jpg"/>
+          </div>
+          
+          <div class="right-column">
+            <div id="preview">           
+              <div id="corner-tl" class="corner"></div>
+              <div id="corner-tr" class="corner"></div>
+                <h3>What i do.</h3>
+                  <p>I was a lead developer in a past life, and now I really enjoy roller skating</p>
+              <div id="corner-bl" class="corner"></div>
+              <div id="corner-br" class="corner"></div>
+            </div>
+        </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        
+
+        
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div>
+            <div class="about-me">
+              <h4>More about me</h4>
+                <p>"I build projects that mean a lot to me.</p>
+                
+                <p>As I grow with my experience as a developer, I still take interviews to find somewhere to step into my first career."</p>
+              
+                <hr>
+
+                <h4>Top Expertise</h4>
+
+                <p>Full Stack developer with primary focus in Java:
+                  <a target="_blank" href="Professional Resume 2020.docx">Download Resume Here</a>
+                </p>
+                
+                <div id="skills">
+                  <ul>
+                    <li>Java</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                  </ul>
+
+                  <ul>
+                    <li>React</li>
+                    <li>AWS</li>
+                    <li>MySQL</li>
+                  </ul>
+                </div>
+
+              <div class="social-links">
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="s1">
+      <div class="main-container">
+        <h3 style="text-align: center;">Past Projects</h1>
+
+        <div class="post-wrapper">
+          
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="JavaScript Calculator.png"/>
+              <div class="post-preview">
+                <h6 class="post-title">Simple Calculator App</h6>
+                  <p class="post-intro">Designed & built this sleek and modern calculator</p>
+                  <a href="https://codepen.io/Darius346/live/MWejGNL">View Project Here</a>
+                  <br>
+                  <a href="https://github.com/WebDevSimplified/Vanilla-JavaScript-Calculator.git">View Code Here</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="JavaScript Calculator.png"/>
+              <div class="post-preview">
+                <h6 class="post-title">Photography Website</h6>
+                  <p class="post-intro">Online photography gallery with payment and scheduling integration.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="JavaScript Calculator.png"/>
+              <div class="post-preview">
+                <h6 class="post-title">Banking Application</h6>
+                  <p class="post-intro">Full stack banking application that is capable of deposits, withdrawals, transfers, and user registration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 </html>
